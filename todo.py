@@ -12,6 +12,9 @@ while True:
 
         case 'show':
             print(todolist)
+        
+        case 'exit':
+            break
 
 
 
