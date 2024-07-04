@@ -1,5 +1,4 @@
-userp = "Enter a todo"
-thing1 = input(userp)
-thing2 = input(userp)
-thing3 = input(userp)
-print(thing1,thing2,thing3)
+book ="Enter book length"
+
+user = input(book)
+print("Length is less than 100, its :",len(user), "all good")
