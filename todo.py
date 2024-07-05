@@ -3,7 +3,7 @@
 todolist =[]
 
 while True:
-    user = input('Type add or show:')
+    user = input('Type add or show or exit:').strip()
 
     match user:
         case 'add':
@@ -11,10 +11,12 @@ while True:
             todolist.append(todo.capitalize())
 
         case 'show':
-            print(todolist)
+            for item in todolist:
+                print(todolist)
         
         case 'exit':
             break
 
 
 
+print("bub bye")
