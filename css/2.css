@@ -1,0 +1,9 @@
+div {
+  background-color: red;
+  border: blue 10px dashed;
+}
+
+span {
+  background: black;
+  color: white;
+}
