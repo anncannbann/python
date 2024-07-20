@@ -39,12 +39,12 @@ s = 'flask'
 ###############
 
 # Given this nested list:
-mylist = [3,7,[1,4,'hello']]
-# Reassign "hello" to be "goodbye"
+# mylist = [3,7,[1,4,'hello']]
+# # Reassign "hello" to be "goodbye"
 
-mylist[2][2]= 'goodbye'
+# mylist[2][2]= 'goodbye'
 
-print(mylist)
+# print(mylist)
 
 ###############
 ## Problem 3 ##
@@ -58,6 +58,9 @@ d2 = {'k1':{'k2':'hello'}}
 
 d3 = {'k1':[{'nest_key':['this is deep',['hello']]}]}
 
+print(d1['simple_key'])
+print(d2['k1']['k2'])
+print(d3['k1'])
 
 ###############
 ## Problem 4 ##
