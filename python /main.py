@@ -12,11 +12,11 @@
 # Given the string:
 s = 'flask'
 
-print(s[0])
-print(s[3])
-print(s[2:5])
-print(s[1:4])
-print(s[4])
+# print(s[0])
+# print(s[3])
+# print(s[2:5])
+# print(s[1:4])
+# print(s[4])
 
 
 
@@ -42,7 +42,7 @@ print(s[4])
 mylist = [3,7,[1,4,'hello']]
 # Reassign "hello" to be "goodbye"
 
-mylist[2,3]='goodbye'
+mylist[2][2]= 'goodbye'
 
 print(mylist)
 
