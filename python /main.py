@@ -60,7 +60,7 @@ d3 = {'k1':[{'nest_key':['this is deep',['hello']]}]}
 
 print(d1['simple_key'])
 print(d2['k1']['k2'])
-print(d3['k1'])
+print(d3['k1'][0])
 
 ###############
 ## Problem 4 ##
@@ -69,7 +69,7 @@ print(d3['k1'])
 # Use a set to find the unique values of the list below:
 mylist = [1,1,1,1,1,2,2,2,2,3,3,3,3]
 
-
+set(mylist)
 ###############
 ## Problem 5 ##
 ###############
