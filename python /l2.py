@@ -9,9 +9,20 @@
 
 #ENCLOSING
 
+# x = 'this is global'
+# def enclosing():
+#     x = 'enclosing '
+#     def inside():
+#         print(x)
+#     inside()
+# enclosing()
+
+
+#GLOBAL
+
 x = 'this is global'
 def enclosing():
-    x = 'enclosing '
+    # x = 'enclosing '
 
     def inside():
         print(x)
@@ -21,7 +32,6 @@ def enclosing():
 enclosing()
 
 
-#GLOBAL
 #BUILT IN
 
 
